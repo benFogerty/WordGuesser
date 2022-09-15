@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: white;
+  opacity:1;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+  background-image: url("https://mocah.org/resol/1920x1080/917392-colorful-minimalism-Windows-10-pastel-shapes-geometry.png");
+  min-height: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#numberOne{
+  height: 50px;
+  width: 50px;
+  color: blue;
+  background-color: pink;
+  font-size: 30px;
+}
+
+#info{
+  position: relative;
+  top:300px;
+}
+

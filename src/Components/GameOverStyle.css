@@ -1,0 +1,64 @@
+#gameOverScreen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 10%);
+    height: 30vw;
+    width: 30vw;
+    z-index: 101;
+    color: #292F33;
+    background-color:  #c5d5e0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#gameOvertext{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -400%);
+    -webkit-text-stroke: 0px black;
+}
+
+h2{
+    font-size: 35px;
+    
+}
+
+.info{
+    position: relative;
+    transform: translate(0%, 300%);
+    -webkit-text-stroke: 0px black;
+}
+
+#background{
+    height: 100vw;
+    width: 110vw;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    z-index: 10;
+    opacity: 0.8;
+}
+
+#playAgainButton{
+    width: 20vw;
+    height: 5vw;
+    position: absolute;
+    transform: translate(-50%, 220%);
+    border-radius: 10px;
+    background-color: #647586;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 0px black;
+}
+
+#playAgainButton:hover{
+    background-color: white;
+    color: #647586;
+}

@@ -1,0 +1,84 @@
+body {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background: #f7f7f7;
+  }
+  span {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .base {
+    border-radius: 10px;
+    background: #47647a;
+    display: flex;
+    width: 900px;
+    height: 250px;
+    flex-direction: column;
+    padding: 30px 15px;
+    font: 28px arial;
+    box-shadow: 0px 40px 45px rgba(0, 0, 0, .4);
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+  }
+  
+  .key{
+      width: 70px;
+      height: 70px;
+      color: #47647a;
+      border-color: black;
+      background: white;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 20%;
+      font-size: 200%;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-text-stroke: 2px black;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+
+  #wrong{
+      background-color: #CD5C5C;
+      color: white;
+  }
+
+  #right{
+      background-color: #75c075;
+      color: white;
+  }
+
+  div[class*='line'] {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  div[class*='line'] + div[class*='line'] {
+    margin-top: 15px;
+  }
+  
+ 
+  .line3 {
+    padding: 0 125px;
+  }
+  
+  .line2 {
+    padding: 0 30px;
+  }
+  
+  div[class*='line'] span {
+    color: #ffffff;
+    padding: 15px;
+    background: #4f5c66;
+    border-radius: 12px;
+    width: 25px;
+    text-align: center;
+  }
